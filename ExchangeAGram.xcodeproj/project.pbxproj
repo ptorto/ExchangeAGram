@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E006F2C1BB50A680094920F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E006F2B1BB50A680094920F /* FeedCell.swift */; };
+		6E006F2E1BB50CDA0094920F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E006F2D1BB50CDA0094920F /* MobileCoreServices.framework */; };
+		6E006F301BB514630094920F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E006F2F1BB514630094920F /* FeedItem.swift */; };
 		6E774C241BB342BA0020B7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E774C231BB342BA0020B7ED /* AppDelegate.swift */; };
 		6E774C271BB342BA0020B7ED /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E774C251BB342BA0020B7ED /* ExchangeAGram.xcdatamodeld */; };
 		6E774C2C1BB342BA0020B7ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E774C2A1BB342BA0020B7ED /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E006F2B1BB50A680094920F /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		6E006F2D1BB50CDA0094920F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6E006F2F1BB514630094920F /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		6E774C1E1BB342BA0020B7ED /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E774C221BB342BA0020B7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E774C231BB342BA0020B7ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E006F2E1BB50CDA0094920F /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +88,12 @@
 			children = (
 				6E774C231BB342BA0020B7ED /* AppDelegate.swift */,
 				6E774C461BB34A040020B7ED /* FeedViewController.swift */,
+				6E006F2B1BB50A680094920F /* FeedCell.swift */,
 				6E774C2A1BB342BA0020B7ED /* Main.storyboard */,
 				6E774C2D1BB342BA0020B7ED /* Images.xcassets */,
 				6E774C2F1BB342BA0020B7ED /* LaunchScreen.xib */,
 				6E774C251BB342BA0020B7ED /* ExchangeAGram.xcdatamodeld */,
+				6E006F2F1BB514630094920F /* FeedItem.swift */,
 				6E774C211BB342BA0020B7ED /* Supporting Files */,
 			);
 			path = ExchangeAGram;
@@ -93,6 +102,7 @@
 		6E774C211BB342BA0020B7ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E006F2D1BB50CDA0094920F /* MobileCoreServices.framework */,
 				6E774C221BB342BA0020B7ED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -216,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E774C241BB342BA0020B7ED /* AppDelegate.swift in Sources */,
+				6E006F2C1BB50A680094920F /* FeedCell.swift in Sources */,
 				6E774C471BB34A040020B7ED /* FeedViewController.swift in Sources */,
+				6E006F301BB514630094920F /* FeedItem.swift in Sources */,
 				6E774C271BB342BA0020B7ED /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +427,7 @@
 				6E774C421BB342BB0020B7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E774C431BB342BB0020B7ED /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				6E774C451BB342BB0020B7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
